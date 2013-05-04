@@ -47,7 +47,6 @@ describe('search',function() {
 	it('Should search for two tokens and succeed.',function(done) {
 		var searcher = new sider.Searcher();
 		searcher.getIds('this rad',function(replies) {
-			console.log(replies);
 			assert.sameMembers(replies,[k1,k2]);
 			done();
 		});
