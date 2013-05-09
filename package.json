@@ -1,9 +1,13 @@
 {
-  "name": "Sider",
-  "version": "0.0.1",
+  "name": "sider",
+  "version": "0.0.2",
   "dependencies": {
     "redis": "~0.8.3",
     "underscore": "~1.4.4"
+  },
+  "repository": {
+		"type": "git",
+		"url" : "https://github.com/base698/Sider.git"
   },
   "devDependencies": {
     "chai": "*"
